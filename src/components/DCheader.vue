@@ -25,7 +25,7 @@
 
 <script>
 export default {
- name: 'DCheader'
+ name: 'DCheader',
 }
 </script>
 
@@ -34,19 +34,25 @@ export default {
 .header{
     &-logo{
         img{
-        display: block;
-        margin-top: 50px;
-        width: 80px;
-        height: 80px;
+            display: block;
+            margin-top: 50px;
+            width: 80px;
+            height: 80px;
+            margin-bottom: 50px;
         }
     }
     &-nav{
         ul {
-        display: flex;
-        justify-content: flex-end;
-        @include listInline;
-        column-gap: 15px;
+            position: absolute;
+            top: 9%;
+            left: 50%;
+            @include listInline;
+            column-gap: 15px;
         }
+    }
+    &-nav a{
+        color: gray;
+        text-decoration: none;
     }
 
 }

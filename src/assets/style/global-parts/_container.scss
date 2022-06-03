@@ -3,3 +3,31 @@
     width: 100%;
     max-width: var(--container-md);
 }
+.container-main{
+    margin: auto;
+    width: 100%;
+    height: 180px;
+    background-color: black;
+}
+.container-main-2{
+    margin: auto;
+    width: 100%;
+    height: 180px;
+    background-color: blue;
+}
+.img-container-main{
+    margin: auto;
+    width: 100%;
+    max-width: var(--container-md);
+}
+.container-footer{
+    width: 100%;
+    margin: auto;
+    max-width: var(--container-md);
+}
+.container-bottom{
+    margin-top:60px ;
+    width: 100%;
+    background-color: gray;
+    height: 70px;
+}
