@@ -3,7 +3,6 @@
     <DCheader/>
     <DCmain/>
     <DCfooter/>
-
   </div>
 </template>
 

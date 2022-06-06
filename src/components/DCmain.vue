@@ -4,7 +4,9 @@
     
     </div>
     <div class="container-mainProducts">
-        <SectionProducts/>
+        <div class="SectionProducts">
+            <SectionProducts/>
+        </div>
     </div>
     <div class=""></div> <div class="container-main-2">
         <div class="img-container-main">

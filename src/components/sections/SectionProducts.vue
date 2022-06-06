@@ -1,10 +1,12 @@
 <template>
     <section>
+      <div class="container">
         <ul class="products-list">
             <li v-for="(product, index) in products" :key="index">
-                <CardProduct :buy ="product.price" : :image="product.thumb" :title="product.series"/>
+                <CardProduct :buy ="product.price"  :image="product.thumb" :title="product.series"/>
             </li>
         </ul>
+        </div>
     </section>
 </template>
 
@@ -97,6 +99,16 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+@import '../../assets/style/mixins.scss';
+.products-list {
+    @include listInline;
+    flex-wrap: wrap;
+    li {
+        width: calc(15%);
+        > * {
+            height: 100%;
+        }
+    }
+}
 </style>
