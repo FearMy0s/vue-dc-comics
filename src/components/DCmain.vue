@@ -3,7 +3,9 @@
     <div class="container-main"> 
     
     </div>
-    <div class="container-main"></div>
+    <div class="container-main">
+
+    </div>
     <div class="container-main-2">
         <div class="img-container-main">
             <img src="../assets/img/buy-comics-digital-comics.png" alt="">
@@ -22,9 +24,12 @@
 </template>
 
 <script>
-import CardProduct from '../commons/CardProduct.vue';
+import SectionProducts from '..sections/components/SectionProducts'
 export default {
 name: 'DCmain',
+components:{
+    SectionProducts,
+}
 
 }
 </script>
