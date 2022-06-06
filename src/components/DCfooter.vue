@@ -39,7 +39,12 @@
     </div>
           
     <div class="container-bottom">
-        <h1>si</h1>
+      <div class="container">
+        <div  class="container-bottom-1">
+          <button class="join">SING-UP NOW!</button>
+        </div>
+          <h2>FOLLOW US!</h2>
+      </div>
     </div>
   </footer>
 </template>
@@ -62,19 +67,29 @@ name:'DCfooter',
 
 
  .container-footer {
-     padding-top:100px;
-     display: flex;
-     color: white;
-     gap: 80px;
-     
-     
+    background-image: url("../assets/img/dc-logo-bg.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+    padding-top:100px;
+    display: flex;
+    color: white;
+    gap: 80px;
  }
-
  .footer li{
      padding-top: 5px;
-     list-style: none;
-     
+     list-style: none;   
  }
+ .join{
+   margin-top: 30px;
+   border: 3px solid blue;
+   background-color: transparent;
+   font-size: 20px;
+   color: white;
+   width: 170px;
+   height: 50px;
+ }
+
  .trick{
      margin-top:30px ;
  }
