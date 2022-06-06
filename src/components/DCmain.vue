@@ -3,10 +3,10 @@
     <div class="container-main"> 
     
     </div>
-    <div class="container-main">
-
+    <div class="container-mainProducts">
+        <SectionProducts/>
     </div>
-    <div class="container-main-2">
+    <div class=""></div> <div class="container-main-2">
         <div class="img-container-main">
             <img src="../assets/img/buy-comics-digital-comics.png" alt="">
             <span>DIGITAL COMICS</span>
@@ -24,13 +24,12 @@
 </template>
 
 <script>
-import SectionProducts from '..sections/components/SectionProducts'
+import SectionProducts from './sections/SectionProducts.vue'
 export default {
 name: 'DCmain',
 components:{
     SectionProducts,
 }
-
 }
 </script>
 

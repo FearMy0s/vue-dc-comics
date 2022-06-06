@@ -2,7 +2,7 @@
     <section>
         <ul class="products-list">
             <li v-for="(product, index) in products" :key="index">
-                <CardProduct  :image="product.thumb" :title="product.series"/>
+                <CardProduct :buy ="product.price" : :image="product.thumb" :title="product.series"/>
             </li>
         </ul>
     </section>
